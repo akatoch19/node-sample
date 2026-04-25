@@ -1,0 +1,17 @@
+{
+  "name": "ci-sample-app",
+  "version": "1.0.0",
+  "description": "Sample Node.js app for GitHub CI",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest",
+    "build": "echo Build step completed"
+  },
+  "author": "Arvind",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "jest": "^29.0.0"
+  }
+}
